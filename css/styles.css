@@ -1,50 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
 
-*{
+* {
   box-sizing: border-box;
-  margin:0;
+  margin: 0;
   padding: 0;
 }
 
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
   line-height: 1.4;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-p{
+p {
   padding-bottom: 0.8rem;
 }
 
 /*Utility Cases*/
-.container{
+.container {
   max-width: 1100px;
   margin: auto;
   padding: 0 2rem;
   overflow: hidden;
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
 
-.text-primary{
+.text-primary {
   color: #fff;
 }
 
-.text-secundary{
+.text-secundary {
   color: #c28d4b;
 }
 
-.texto-container{
+.texto-container {
   text-align: center;
   padding: 20px;
   margin: 0;
   letter-spacing: 0.03rem;
-
 }
 
 .bg-light {
@@ -66,33 +65,44 @@ p{
   color: #fff;
 }
 
-.l-heading{
+.l-heading {
   font-size: 4rem;
   margin-bottom: 0.75rem;
   line-height: 1.1;
 }
 
-.m-heading{
+.m-heading {
   font-size: 2rem;
   margin-bottom: 0.75rem;
   line-height: 1.1;
 }
 
-.lead{
+.lead {
   font-size: 1.3rem;
   margin-bottom: 2rem;
 }
 
-.py-1 { padding: 1.5rem 0;}
-.py-2 { padding: 2rem 0;}
-.py-3 { padding: 3rem 0;}
+.py-1 {
+  padding: 1.5rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
 
-.p-1 { padding: 1.5rem;}
-.p-2 { padding: 2rem;}
-.p-3 { padding: 3rem;}
+.p-1 {
+  padding: 1.5rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.p-3 {
+  padding: 3rem;
+}
 
-
-.btn{
+.btn {
   display: inline-block;
   color: #fff;
   background: #70300f;
@@ -101,11 +111,11 @@ p{
   border-radius: 5px;
 }
 
-.btn:hover{
+.btn:hover {
   background: #c28d4b;
 }
 
-.btn-dark{
+.btn-dark {
   background: #333;
   color: #fff;
 }
@@ -120,7 +130,7 @@ p{
   border-bottom: #e17218 dotted 1px;
 }
 
-.title{
+.title {
   text-align: center;
   font-size: 25px;
   padding-bottom: 10px;
@@ -133,47 +143,24 @@ p{
   color: #929292;
 }
 
-
-
 /*Header*/
 
-header{
+header {
   display: block;
 }
 
 /*Navbar*/
-#navbar{
-  display: flex;
+
+.navbar {
+  background: #dfbe95;
   position: sticky;
   top: 0;
-  background: #dfbe95;
   color: #000000;
-  justify-content: space-between;
-  padding: 1rem;
-}
-
-#navbar ul{
-  display: flex;
-  align-items: center;
-  list-style: none;
-}
-
-#navbar ul li a{
-  color: #000;
-  padding: 0.75rem;
-  margin: 0 0.25rem;
-  font-weight: 600;
-}
-
-#navbar ul li a:hover{
-  background: #ddcdbf;
-  border-radius: 5px;
 }
 
 /*Showcase*/
 #showcase {
-  background:
-   url('../img/showcase.jpg') no-repeat center center/cover;
+  background: url("../img/showcase.jpg") no-repeat center center/cover;
   height: 100vh;
   color: #fff;
   position: relative;
@@ -182,7 +169,7 @@ header{
   overflow: hidden;
 }
 
-#showcase .showcase-content{
+#showcase .showcase-content {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -190,7 +177,7 @@ header{
   align-items: center;
   height: 100%;
   padding: 0 2rem;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 /*Como funciona*/
@@ -225,13 +212,13 @@ header{
 
 /****Testimonios****/
 
-#testimonios{
+#testimonios {
   background: #be7656;
   color: #fff;
   display: inline-block;
 }
 
-#testimonios p{
+#testimonios p {
   text-align: center;
   padding: 40px;
 }
@@ -241,10 +228,10 @@ header{
   padding-left: 500px;
 }
 
-#testimonios .foto-testimonio img{
+#testimonios .foto-testimonio img {
   width: 120px;
   border-radius: 60px;
-  }
+}
 
 #testimonios .button {
   text-align: center;
@@ -252,58 +239,54 @@ header{
   margin-top: 35px;
 }
 
-
-
-
-
 /*presentados*/
 
-  #presentados{
-    align-items: center;
-  }
-
-  #presentados .publicidad {
-    display: flex;
-    padding: 30px;
-    margin: 70px;
-  }
-
-  #presentados .publicidad img{
-    display: block;
-    margin: auto;
-    width: 150px;
-  }
-
-  /*Catadores*/
-
-  #catadores{
-    display: flex;
-    width: auto;
-  }
-
-  #catadores div{
-  flex:1;
+#presentados {
+  align-items: center;
 }
 
-#catadores .catadores-img {
-   background: url(../img/catador.jpg) no-repeat center center/cover;
-   background-size: cover;
+#presentados .publicidad {
+  display: flex;
+  padding: 30px;
+  margin: 70px;
 }
 
-/*Tostadores*/
+#presentados .publicidad img {
+  display: block;
+  margin: auto;
+  width: 150px;
+}
 
-#tostadoras{
+/*Catadores*/
+
+#catadores {
   display: flex;
   width: auto;
 }
 
-#tostadoras div{
-flex:1;
+#catadores div {
+  flex: 1;
+}
+
+#catadores .catadores-img {
+  background: url(../img/catador.jpg) no-repeat center center/cover;
+  background-size: cover;
+}
+
+/*Tostadores*/
+
+#tostadoras {
+  display: flex;
+  width: auto;
+}
+
+#tostadoras div {
+  flex: 1;
 }
 
 #tostadoras .tostadoras-img {
- background: url(../img/coffee-roaster.jpg) no-repeat center center/cover;
- background-size: cover;
+  background: url(../img/coffee-roaster.jpg) no-repeat center center/cover;
+  background-size: cover;
 }
 
 /*texture banner*/
@@ -320,12 +303,11 @@ flex:1;
   letter-spacing: 0.1em;
 }
 
-
 /*Footer*/
 
 #main-footer {
-text-align: center;
-background: #744924;
-color:#ffffff;
-padding: 20px;
+  text-align: center;
+  background: #744924;
+  color: #ffffff;
+  padding: 20px;
 }
