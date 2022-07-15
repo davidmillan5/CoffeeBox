@@ -214,18 +214,10 @@ header {
 
 #testimonios {
   background: #be7656;
-  color: #fff;
-  display: inline-block;
-}
-
-#testimonios p {
-  text-align: center;
-  padding: 40px;
 }
 
 #testimonios .foto-testimonio {
   display: flex;
-  padding-left: 500px;
 }
 
 #testimonios .foto-testimonio img {
@@ -247,8 +239,6 @@ header {
 
 #presentados .publicidad {
   display: flex;
-  padding: 30px;
-  margin: 70px;
 }
 
 #presentados .publicidad img {
@@ -258,15 +248,6 @@ header {
 }
 
 /*Catadores*/
-
-#catadores {
-  display: flex;
-  width: auto;
-}
-
-#catadores div {
-  flex: 1;
-}
 
 #catadores .catadores-img {
   background: url(../img/catador.jpg) no-repeat center center/cover;
@@ -278,10 +259,6 @@ header {
 #tostadoras {
   display: flex;
   width: auto;
-}
-
-#tostadoras div {
-  flex: 1;
 }
 
 #tostadoras .tostadoras-img {

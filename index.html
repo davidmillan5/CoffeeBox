@@ -78,7 +78,7 @@
 
   <body>
     <!---showcase------>
-    <div id="showcase" class="container-fluid">
+    <div id="showcase" class="container-fluid overflow-hidden">
       <div class="showcase-content row">
         <h1 class="l-heading">
           El mejor café <br />
@@ -92,16 +92,20 @@
       </div>
     </div>
     <!--Sección-como_funciona-->
-    <div id="como-funciona" class="bg-light py-1">
-      <h3 class="m-heading text-center">
+    <div
+      id="como-funciona"
+      class="bg-light py-1 container-fluid overflow-hidden"
+    >
+      <h3 class="m-heading text-center mt-4">
         <span class="text-secunday">¿Cómo funciona CoffeeBox?</span>
       </h3>
-      <div class="container-como-funciona">
-        <div class="contenedores-iconos">
-          <div class="seleccion">
+      <div class="container-como-funciona row">
+        <div class="contenedores-iconos row">
+          <div class="seleccion col-lg-4">
             <img
               src="img/seleccion-removebg-preview.png"
               alt="seleccion de café"
+              class="img-fluid"
             />
             <div class="title">Selección De Café</div>
             <p class="secundary_p">
@@ -110,10 +114,11 @@
               maxime. Corrupti, deleniti!
             </p>
           </div>
-          <div class="tostadora">
+          <div class="tostadora col-lg-4">
             <img
               src="img/tostadora-removebg-preview.png"
               alt="Tostadoras de Café"
+              class="img-fluid"
             />
             <div class="title">Tostamos Tú Café</div>
             <p class="secundary_p">
@@ -122,8 +127,12 @@
               maxime. Corrupti, deleniti!
             </p>
           </div>
-          <div class="entrega">
-            <img src="img/entrega-removebg-preview.png" alt="" />
+          <div class="entrega col-lg-4">
+            <img
+              src="img/entrega-removebg-preview.png"
+              alt=""
+              class="img-fluid"
+            />
             <div class="title">El Café Entregado En Tú Puerta</div>
             <p class="secundary_p">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
@@ -135,8 +144,11 @@
       </div>
     </div>
     <!--Testimonios-->
-    <div id="testimonios">
-      <p>
+    <div
+      id="testimonios"
+      class="container-fluid text-light pt-4 overflow-hidden"
+    >
+      <p class="text-center mt-5">
         <q
           >Buen café y mejor servicio al cliente! Me encanta saber que puedo
           conocer una gran variedad de granos, de gran calidad, seleccionados de
@@ -144,61 +156,105 @@
           región.</q
         >
       </p>
-      <div class="foto-testimonio">
-        <img src="img/testimonio-1.jpg" alt="Testimonio" />
-        <p class="cliente">Carolina Montoya (Medellín, Antioquia)</p>
-      </div>
-      <div class="button">
-        <a href="#suscripcion" class="btn">Inscribete</a>
+      <div class="foto-testimonio row">
+        <div class="col-sm-12">
+          <img
+            src="img/testimonio-1.jpg"
+            alt="Testimonio"
+            class="img-fluid center mx-auto d-block"
+          />
+          <p class="cliente text-center mt-2">
+            Carolina Montoya (Medellín, Antioquia)
+          </p>
+        </div>
+        <div class="button center align-items-center col">
+          <a href="#suscripcion" class="btn">Inscribete</a>
+        </div>
       </div>
     </div>
     <!--Presentados en-->
-    <section id="presentados">
-      <div class="publicidad">
-        <span style="color: #000; font-size: 16px">PRESENTADOS EN</span>
-        <img src="img/telemedellin.png" alt="Telemedellín" />
-        <img src="img/Teleantioquia.png" alt="Teleantioquia" />
-        <img src="img/el_colombiano.png" alt="El Colombiano" />
-        <img src="img/el_espectador.png" alt="El Espectador" />
-        <img src="img/Caracol_Radio_logo.svg.png" alt="Caracol Radio" />
+    <section id="presentados" class="container-fluid overflow-hidden">
+      <div class="publicidad row p-5">
+        <span class="mb-4" style="color: #000; font-size: 16px"
+          >PRESENTADOS EN</span
+        >
+        <img
+          src="img/telemedellin.png"
+          alt="Telemedellín"
+          class="img-fluid mb-4"
+        />
+        <img
+          src="img/Teleantioquia.png"
+          alt="Teleantioquia"
+          class="img-fluid mb-4"
+        />
+        <img
+          src="img/el_colombiano.png"
+          alt="El Colombiano"
+          class="img-fluid mb-4"
+        />
+        <img
+          src="img/el_espectador.png"
+          alt="El Espectador"
+          class="img-fluid mb-4 mt-4"
+        />
+        <img
+          src="img/Caracol_Radio_logo.svg.png"
+          alt="Caracol Radio"
+          class="img-fluid mb-3"
+        />
       </div>
     </section>
     <!--catadores-->
-    <section id="catadores">
-      <div class="catadores-img"></div>
-      <div class="texto-container bg-dark py-2">
-        <h2 class="m-heading">Conoce A Nuestros Catadores</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi cum,
-          amet, eius praesentium accusantium harum consectetur sapiente
-          voluptatibus nulla molestiae obcaecati doloremque placeat error
-          deserunt repellendus ut dolorem et maxime sed quibusdam tempora quidem
-          corrupti quaerat porro. Qui cumque dignissimos sint pariatur sapiente
-          eveniet, facilis molestiae cupiditate minima, eum consectetur.
-        </p>
+    <section id="catadores" class="container-fluid overflow-hidden">
+      <div class="row">
+        <div class="catadores-img col-6"></div>
+        <div class="texto-container bg-dark py-2 col-6">
+          <h2 class="m-heading mt-4">Conoce A Nuestros Catadores</h2>
+          <p class="text-center p-4">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi cum,
+            amet, eius praesentium accusantium harum consectetur sapiente
+            voluptatibus nulla molestiae obcaecati doloremque placeat error
+            deserunt repellendus ut dolorem et maxime sed quibusdam tempora
+            quidem corrupti quaerat porro. Qui cumque dignissimos sint pariatur
+            sapiente eveniet, facilis molestiae cupiditate minima, eum
+            consectetur.
+          </p>
+        </div>
       </div>
     </section>
     <!--tostadoras-->
-    <section id="tostadoras">
-      <div class="texto-container bg-dark py-2">
-        <h2 class="m-heading">Conoce Nuestros Tostadores</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi cum,
-          amet, eius praesentium accusantium harum consectetur sapiente
-          voluptatibus nulla molestiae obcaecati doloremque placeat error
-          deserunt repellendus ut dolorem et maxime sed quibusdam tempora quidem
-          corrupti quaerat porro. Qui cumque dignissimos sint pariatur sapiente
-          eveniet, facilis molestiae cupiditate minima, eum consectetur.
-        </p>
+    <section id="tostadoras" class="container-fluid overflow-hidden">
+      <div class="row">
+        <div class="texto-container bg-dark py-2 col-6">
+          <h2 class="m-heading mt-2">Conoce Nuestros Tostadores</h2>
+          <p class="text-center p-4">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi cum,
+            amet, eius praesentium accusantium harum consectetur sapiente
+            voluptatibus nulla molestiae obcaecati doloremque placeat error
+            deserunt repellendus ut dolorem et maxime sed quibusdam tempora
+            quidem corrupti quaerat porro. Qui cumque dignissimos sint pariatur
+            sapiente eveniet, facilis molestiae cupiditate minima, eum
+            consectetur.
+          </p>
+        </div>
+        <div class="tostadoras-img col-6"></div>
       </div>
-      <div class="tostadoras-img"></div>
     </section>
 
-    <section id="textured-row">
-      <h3>Tu mañana perfecta ha llegado.</h3>
+    <section id="textured-row" class="container-fluid overflow-hidden">
+      <div class="row">
+        <div class="col">
+          <h3>Tu mañana perfecta ha llegado.</h3>
+        </div>
+      </div>
     </section>
-    <footer id="main-footer">
-      <p>COFFEEBOX &copy; 2020, All Rights Reserve</p>
+    <footer id="main-footer" class="container-fluid overflow-hidden">
+      <div class="row">
+        <div class="col">
+          <p>COFFEEBOX &copy; 2022, All Rights Reserve</p>
+        </div>
+      </div>
     </footer>
 
     <!--Bootstrap-->
